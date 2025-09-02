@@ -25,4 +25,4 @@ jobs:
           pip install pytest
 
       - name: Run Pytest Tests
-        run: pytest
+        run: pytest ./test_fitness_app.py
