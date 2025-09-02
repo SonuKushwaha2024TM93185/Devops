@@ -18,7 +18,6 @@ class FitnessTrackerApp:
         self.duration_label.grid(row=1, column=0, padx=5, pady=5)
         self.duration_entry = tk.Entry(master)
         self.duration_entry.grid(row=1, column=1, padx=5, pady=5)
-        print('Hello')
         # Buttons
         self.add_button = tk.Button(master, text="Add Workout", command=self.add_workout)
         self.add_button.grid(row=2, column=0, columnspan=2, pady=10)
