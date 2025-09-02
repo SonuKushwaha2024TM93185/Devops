@@ -25,4 +25,6 @@ jobs:
           pip install pytest
 
       - name: Run Pytest Tests
-        run: pytest ./test_fitness_app.py
+        run: |
+         ls -la  # List files to confirm location
+         pytest
