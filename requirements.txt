@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 pytest
 pytest-mock
+=======
+pytest
+pytest-mock
+>>>>>>> 00d79063a0085bb9fe5c61b837d308b30330d460
