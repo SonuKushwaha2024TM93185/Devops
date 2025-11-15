@@ -14,10 +14,14 @@ CI/CD via **Jenkins** with build → test → scan → dockerize → deploy stag
 ## Repository Structure
 
 Devops/
-│── src/
-│    └── ACEest_Fitness-V1.1.py
+├── ACEest_FitnessV11.py
+├── ACEest_FitnessV12.py
+├── ACEest_FitnessV13.py
+├── ACEest_FitnessV121.py
+├── ACEest_FitnessV122.py
+├── ACEest_FitnessV123.py
 │── tests/
-│    └── test_fitness_app.py
+│    └── test_app.py
 │── docker/
 │    ├── Dockerfile
 │    └── docker-compose.yml
